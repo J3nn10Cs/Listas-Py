@@ -41,12 +41,20 @@ def main():
     while True:
         options = int(input('\n 1)Crear una tardea \n 2) Mostrar tarea \n 3) Marcar realizada una tarea \n 4)Borrar una tarea \n 5)Salir \n Elija una opción : '))
         match options:
-            case 1: CreatList()
-            case 2: ShowList()
-            case 3: UpdateList()
-            case 4: DeleteList()
-            case 5: print('Hasta pronto')
-            case _: ('Opción no valida')
+            case 1: 
+                CreatList()
+            case 2: 
+                ShowList()
+            case 3: 
+                UpdateList()
+            case 4: 
+                DeleteList()
+            case 5: 
+                print('Hasta pronto')
+                break
+            case _: 
+                print('Opción no valida')
+                break
     
 if __name__ == '__main__':
     main()
