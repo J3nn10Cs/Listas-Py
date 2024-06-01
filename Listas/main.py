@@ -39,7 +39,7 @@ def main():
     print('.: Bienvenido a Python .: \n ')
     
     while True:
-        options = int(input('\n 1)Crear una tardea \n 2) Mostrar tarea \n 3) Marcar realizada una tarea \n 4)Borrar una tarea \n 5)Salir \n Elija una opción : '))
+        options = int(input('\n 1)Crear una tardea \n 2) Mostrar tarea \n 3) Marcar realizada una tarea \n 4) Borrar una tarea \n 5) Salir \n Elija una opción : '))
         match options:
             case 1: 
                 CreatList()
